@@ -17,9 +17,3 @@ function init() {
     title.style.color = BASE_COLOR;
   }
 init();
-
-function handelOffline(){
-  console.log('hihihihihi');
-}
-window.addEventListener("offline",handelOffline);
-window.addEventListener("online",handelOffline);
