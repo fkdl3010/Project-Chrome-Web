@@ -10,9 +10,8 @@ function getTime(){
 
 }
 function time(){
-  setInterval(function(){
-    getTime();
-  },1000);
+  getTime();
+  setInterval(getTime, 1000);
 }
 function init(){
   time();
