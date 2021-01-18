@@ -9,3 +9,12 @@ h1{
 .clicked{
   color: red;
 }
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing{
+  display: block;
+}
