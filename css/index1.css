@@ -116,7 +116,7 @@ ul {
   background: none;
   border: none;
   color: white;
-  font-size: 230%;
+  font-size: 180%;
   border-bottom: 3px solid rgba(255, 255, 255, 0.8);
   margin:auto;
   margin-bottom: 20px;
@@ -134,13 +134,13 @@ ul {
 .list{
   font-size: 25px;
   display: list-item;
-  width: 38%;
+  width: 17%;
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .js-toDoinput{
-  font-size: 30px;
+  font-size: 150%;
 }
 .toDo_button {
   margin-right: 10px;

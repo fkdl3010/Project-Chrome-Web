@@ -4,6 +4,11 @@ const greeting = document.querySelector('.js-greetings');
 const USER_LS = "currentUser";
 const SHOWING_CN = 'showing';
 
+function blur(event){
+    console.log(event);
+    handleBlurName(event);
+}
+
 function handleChangeUser(event){
     event.stopPropagation();
     localStorage.removeItem(USER_LS);
@@ -29,13 +34,19 @@ function saveName(text){
     localStorage.setItem(USER_LS, text);
 }
 
+function handleBlurName(event){
+    event.preventDefault();
+    const form = event.target;
+    const currentValue = form.value;
+    saveName(currentValue);
+    paintName(currentValue);
+}
+
 function handleSubmitName(event){
     event.preventDefault();
-    console.log(event);
     const form = event.target;
     const input = form.querySelector('input');
     const currentValue = input.value;
-    console.log(currentValue);
     saveName(currentValue);
     paintName(currentValue);
 }
@@ -48,6 +59,7 @@ function paintGreeting(text){
     input.className = "name__input";
     const form = document.createElement('form');
     form.addEventListener('submit',handleSubmitName);
+    form.addEventListener('blur',blur,true);
     form.appendChild(input);
     nameContainer.appendChild(form);
 }
