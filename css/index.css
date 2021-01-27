@@ -1,11 +1,62 @@
-body {
-  background-color:mintcream;
+
+body,
+html {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
-body{
-  color: #2c3e50;
-  transition: color 0.5s ease-in-out ;
+body {
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+  animation-delay: 0.5s;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
+input {
+  background: none;
+  appearance: none;
+  border: 0;
+  font-size: 22px;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+input::placeholder {
+  color: white;
+  text-align: center;
+}
+
+input:focus,
+input:active {
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin-top: 30px;
+}
 .clicked{
   color: red;
 }
@@ -35,4 +86,78 @@ body{
   height: 100%;
   z-index: -1;
   animation: fadeIn .5s linear;
+}
+
+.js-title{
+  font-size: 10em;
+}
+
+.main-wrapper{
+  position: relative;
+  width: 50%;
+  margin: auto;
+  top: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.js-weather{
+  position: relative;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 30px;
+  font-style: italic;
+}
+
+.name__input {
+  appearance: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 45px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+
+.name_text {
+  font-size: 50px;
+  
+}
+
+.js-toDoForm{
+  margin-top: 20px;
+}
+
+.list{
+  font-size: 25px;
+  display: list-item;
+  width: 38%;
+  margin: auto;
+  text-align: left;
+}
+
+.js-toDoinput{
+  font-size: 30px;
+}
+.toDo_button {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.change_User{
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.refresh-ico{
+  font-size: 30px;
+  margin-left: 14px;
+  cursor: pointer;
+}
+.refresh-container{
+  text-align: center;
+  margin: auto;
 }

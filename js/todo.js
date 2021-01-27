@@ -33,12 +33,14 @@ function saveToDos(){
 // text를 li에 담아 ul 밑에 뿌려줌, toDos 배열에 담아줌
 function paintToDo(text){
     const li = document.createElement('li');
-    const delBtn = document.createElement('button');
+    const delBtn = document.createElement('span');
     const span = document.createElement('span');
     const newId = toDos.length + 1;
     delBtn.innerHTML = '❌';
+    delBtn.className = "toDo_button";
     delBtn.addEventListener('click', deleteToDo);
     span.innerText = text;
+    li.className = 'list';
     li.appendChild(delBtn);
     li.appendChild(span);
     li.id = newId;
