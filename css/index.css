@@ -89,18 +89,18 @@ ul {
 }
 
 .js-title{
-  font-size: 10em;
+  font-size: 6em;
 }
 
 .main-wrapper{
   position: relative;
-  width: 50%;
   margin: auto;
-  top: 10%;
   text-align: center;
   display: flex;
   flex-direction: column;
-  
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
 }
 
 .js-weather{
@@ -116,8 +116,9 @@ ul {
   background: none;
   border: none;
   color: white;
-  font-size: 45px;
+  font-size: 230%;
   border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+  margin:auto;
   margin-bottom: 20px;
 }
 
@@ -135,7 +136,7 @@ ul {
   display: list-item;
   width: 38%;
   margin: auto;
-  text-align: left;
+  text-align: center;
 }
 
 .js-toDoinput{
@@ -159,5 +160,5 @@ ul {
 }
 .refresh-container{
   text-align: center;
-  margin: auto;
+  margin-top: 100px;
 }
