@@ -101,6 +101,7 @@ ul {
   width: 90%;
   height: 500px;
   margin: 0 auto;
+  align-items: center;
 }
 
 .js-weather{
@@ -134,9 +135,9 @@ ul {
 .list{
   font-size: 25px;
   display: list-item;
-  width: 17%;
   margin: auto;
   text-align: left;
+  
 }
 
 .js-toDoinput{
@@ -162,3 +163,4 @@ ul {
   text-align: center;
   margin-top: 100px;
 }
+
