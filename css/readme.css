@@ -1,0 +1,10 @@
+
+h1{
+  color: red;
+}
+img + em {
+      display: block;
+      text-align: center;
+      font-size: .8rem;
+      color: grey-color-light;
+  }
