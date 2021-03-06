@@ -16,7 +16,6 @@ ___<center>phone</center>___
 
 ## 📕 Project
 
----
 - 한 줄 소개: javascript와 localStorage를 활용한 할일 목록을 만들어주는 간단한 사이트입니다.
 - 제작 기간: 21.01.08 ~ 21.01.10
 - 개발 환경: 
