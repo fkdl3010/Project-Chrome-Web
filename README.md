@@ -3,7 +3,7 @@
 ![DemoImage](images/demo.png)
   ___<center>desktop</center>___
 
-<img src="images/demo_phone.png" style="width:350px; margin:auto;">
+<img src="images/demo_phone.png" align="center" width="350">
   
   ___<center>phone</center>___
 
