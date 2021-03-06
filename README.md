@@ -12,7 +12,7 @@
 
 - 개발 인원: 1명
 
-- [포트폴리오](https://www.notion.so/To-do-List-0e8ff444a6e14bd287e4616eff089a47) | [Live Demo](https://fkdl3010.github.io/Project-Chrome-Web/)
+- <a href="https://www.notion.so/To-do-List-0e8ff444a6e14bd287e4616eff089a47" target="_blank">포트폴리오</a> | <a href="https://fkdl3010.github.io/Project-Chrome-Web/" target="_blank">Live Demo</a> 
 <br><br>
 
 
