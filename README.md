@@ -1,19 +1,5 @@
 # ☀️개인 목록 만들기 사이트
 
-<div align="center"><img src="images/demo.png" align="center"/>
-
-  ___<center>desktop</center>___
-
-</div>
-
-<div align="center"><img src="images/demo_phone.png" align="center" width="350"/>
-
-___<center>phone</center>___
-
-</div>
-  
-  
-
 ## 📕 Project
 
 - 한 줄 소개: javascript와 localStorage를 활용한 할일 목록을 만들어주는 간단한 사이트입니다.
@@ -28,4 +14,20 @@ ___<center>phone</center>___
 
 - [포트폴리오](https://www.notion.so/To-do-List-0e8ff444a6e14bd287e4616eff089a47) | [Live Demo](https://www.notion.so/To-do-List-0e8ff444a6e14bd287e4616eff089a47)
 <br><br>
+
+
+
+<div align="center"><img src="images/demo.png" align="center"/>
+
+  ___<center>desktop</center>___
+
+</div>
+
+<div align="center"><img src="images/demo_phone.png" align="center" width="350"/>
+
+___<center>phone</center>___
+
+</div>
+  
+  
 
