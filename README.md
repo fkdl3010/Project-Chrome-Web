@@ -1,11 +1,18 @@
 # ☀️개인 목록 만들기 사이트
 
-![DemoImage](images/demo.png)
+<div style="text-align:center"><img src="images/demo.png" align="center">
+
   ___<center>desktop</center>___
 
-<img src="images/demo_phone.png" align="center" width="350">
+</div>
+
+<div style="text-align:center"><img src="images/demo_phone.png" align="center" width="350">
+
+___<center>phone</center>___
+
+</div>
   
-  ___<center>phone</center>___
+  
 
 ## 📕소개
 
