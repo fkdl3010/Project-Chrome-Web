@@ -1,12 +1,12 @@
 # ☀️개인 목록 만들기 사이트
 
-<div style="text-align:center"><img src="images/demo.png" align="center">
+<div align="center"><img src="images/demo.png" align="center"/>
 
   ___<center>desktop</center>___
 
 </div>
 
-<div style="text-align:center"><img src="images/demo_phone.png" align="center" width="350">
+<div align="center"><img src="images/demo_phone.png" align="center" width="350"/>
 
 ___<center>phone</center>___
 
